@@ -1,0 +1,17 @@
+Program Process
+
+1) Data Grouping
+Each movement of the elevator is grouped into a single unit. This represents a complete cycle of the elevator moving from one point to another.
+
+2) Observation of Air Pressure Changes (Val_1)
+The program observes changes in air pressure related to the elevator's movement. This data provides information about how far (in terms of height or depth) the elevator has moved. This can be interpreted as the 'move distance'.
+
+3) Measurement of Movement Time
+The time taken for each movement of the elevator is measured. This is the total time it takes for the elevator to move from one point to another.
+
+4) Anomaly Analysis and Prediction Model Training
+- The relationship between move distance and move time is analyzed to detect patterns that deviate from normal operation.
+- An anomaly prediction machine learning model is developed and trained. This model can be used to identify abnormal movement patterns, which may indicate potential issues or malfunctions that could arise.
+
+5)  Expected Outcomes
+Anomaly Detection: The program identifies instances where the elevator takes an unusually long or short amount of time to move a certain distance.
